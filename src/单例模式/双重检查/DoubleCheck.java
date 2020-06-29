@@ -36,7 +36,7 @@ class Singleton{
             synchronized (Singleton.class){
                 if(instance == null){
                     System.out.println("执行了初始化单例对象的方法");
-                    return instance = new Singleton();
+                    instance = new Singleton();
                 }
             }
         }
