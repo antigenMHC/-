@@ -13,7 +13,8 @@ import java.util.Arrays;
 public class Test {
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
 
-        /*Class<Singleton> singletonClass = Singleton.class;
+        /*
+        Class<Singleton> singletonClass = Singleton.class;
         //通过反射获得构造器对象
         Constructor<Singleton> constructor = singletonClass.getDeclaredConstructor();
         constructor.setAccessible(true);
@@ -22,7 +23,8 @@ public class Test {
 
         Singleton newInstance = constructor.newInstance();
 
-        System.out.println(newInstance == instance);*/
+        System.out.println(newInstance == instance);
+        */
 
         /*//静态内部类获取一个单例对象
         StaticSingleton staticInstance = StaticSingleton.getInstance();

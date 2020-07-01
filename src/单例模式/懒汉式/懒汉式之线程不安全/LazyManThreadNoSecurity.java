@@ -15,12 +15,9 @@ public class LazyManThreadNoSecurity {
     public static void main(String[] args) {
 
         SingletonThread singletonThread = new SingletonThread();
-
+        SingletonThread singletonThread2 = new SingletonThread();
         new Thread(singletonThread).start();
-        new Thread(singletonThread).start();
-        new Thread(singletonThread).start();
-        new Thread(singletonThread).start();
-        new Thread(singletonThread).start();
+        new Thread(singletonThread2).start();
     }
 }
 
