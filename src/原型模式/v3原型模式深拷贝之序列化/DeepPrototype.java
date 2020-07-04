@@ -40,6 +40,7 @@ public class DeepPrototype implements Serializable {
 
         //需要返回的反序列化出来的对象
         Object deepCopy = null;
+
         //创建流对象
         FileOutputStream bos = null;
         ObjectOutputStream oos = null;
@@ -50,7 +51,7 @@ public class DeepPrototype implements Serializable {
         try{
             //序列化操作
             bos = new FileOutputStream("test");
-            //指定接下来的输出的对象输出到哪个流中
+            //指定接下来输出的对象输出到哪个流中
             oos = new ObjectOutputStream(bos);
             //把当前对象以对象流的方式输出到bos中
             oos.writeObject(this);

@@ -26,8 +26,8 @@ public class Test {
         System.out.println(newInstance == instance);
         */
 
-        /*//静态内部类获取一个单例对象
-        StaticSingleton staticInstance = StaticSingleton.getInstance();
+        //静态内部类获取一个单例对象
+        /*StaticSingleton staticInstance = StaticSingleton.getInstance();
         //通过反射获得构造器对象
         Class<StaticSingleton> staticSingletonClass = StaticSingleton.class;
 
@@ -50,7 +50,7 @@ public class Test {
         LazySingleton instance = LazySingleton.getInstance();
 
 
-        System.out.println(instance);
+        System.out.println(instance == singleton);
     }
 
 }
