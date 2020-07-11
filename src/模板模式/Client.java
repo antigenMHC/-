@@ -1,7 +1,5 @@
 package 模板模式;
 
-import jdk.nashorn.internal.ir.CallNode;
-
 /**
  * @Author: antigenMHC
  * @Date: 2020/7/10 20:20
