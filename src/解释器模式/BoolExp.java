@@ -7,6 +7,11 @@ package 解释器模式;
  **/
 public interface BoolExp {
 
+    /**
+     * 解释上下文表达式，计算出结果
+     * @param context：表达式
+     * @return：结果
+     */
     boolean evaluate(Context context);
     BoolExp replace(String var, BoolExp exp);
     BoolExp copy();
