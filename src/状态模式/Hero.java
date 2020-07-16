@@ -25,6 +25,10 @@ public class Hero {
      * 眩晕状态
      */
     public static final State DIZZ_STATE = new DizzState();
+    /**
+     * 新状态
+     */
+    public static final State NEW_STATE = new NewState();
 
     //表示英雄当前状态
     private State state = NORMAL_STATE;

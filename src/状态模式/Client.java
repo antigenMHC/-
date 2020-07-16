@@ -19,8 +19,9 @@ public class Client {
         Thread.sleep(5000);
         hero.setState(Hero.SLOW_STATE);
         Thread.sleep(5000);
+        hero.setState(Hero.NEW_STATE);
+        Thread.sleep(5000);
 
         hero.stopMove();
-
     }
 }
